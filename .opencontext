@@ -1,0 +1,7 @@
+codecomponent:
+  service: retail
+  lifecycle: production
+  priority: 2
+  sla: 8x5
+  dependsOn: [code-component:scatter-ly/wholesale-graphql]
+  subcomponentOf: [code-component:scatter-ly/retail-app]
