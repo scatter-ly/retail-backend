@@ -1,0 +1,10 @@
+---
+schema-version: v2.1
+dd-service: retail-backend
+team: none
+application: "retail"
+links:
+  - name: https://github.com/scatter-ly/retail-backend
+    type: repo
+    provider: github
+    url: https://github.com/scatter-ly/retail-backend
