@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: retail-backend
+  namespace: scatter-ly
+  description: Retail backend repository
+spec:
+  type: repository
+  lifecycle: production
+  owner: scatter-ly/alctest-int
+  system: retail-app
